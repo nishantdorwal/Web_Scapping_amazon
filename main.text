@@ -1,0 +1,24 @@
+with python
+read amazon.html and parse it with beautifulsoup
+
+
+findall
+div with class="zg-grid-general-faceout" for all the divs
+
+try find div with class="_cDEzb_p13n-sc-css-line-clamp-1_1Fn1y and store it as book_name
+except book_name=" " 
+
+try find div with class="_cDEzb_p13n-sc-css-line-clamp-1_1Fn1y" and store it as author
+except author=" "
+
+try find span with class="a-icon-alt" and store it as rating
+except rating=" "
+
+try find span with aria-hidden="true" class="a-size-small" and store it as reviews
+except reviews=" "
+
+try find span with class="_cDEzb_p13n-sc-price_3mJ9Z" and store it as price
+except price=" "
+
+
+open an excel file  and write book_name,auther ,rating,reviews,and price
